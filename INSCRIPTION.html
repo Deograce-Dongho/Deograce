@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<Html>
+    <HEad>
+        <TITle>INSCRIPTION</TITle>
+        <METa charset="UTF-8"></METa>
+    </HEad>
+    <BODY>
+        <CEnter><H1>Formulaire d'inscription</H1>
+        <p>Remplissez tous les champs du formulaire.</p>
+        <A href="../SITE WEB::/TRAVAIL PRATIQUE HTML.html">revenir a la page precedente</A>
+        <!--<Table border="1" bgcolor="pink" width="50%" >
+            <THead>
+                <TR>
+                    <TH>NOM</TH>
+                    <TH>FAMILLE</TH>
+                    <TH>STATUT</TH>
+                    <th>NOMBRE D'ENFANTS</th>
+                </TR>
+            </THead>
+            <TBody>
+                <TR>
+                    <TD>Marcereau</TD>
+                    <td>Tagne</td>
+                    <td>celibataire</td>
+                    <TD align="center">10</TD>
+                </TR>
+                <tr>
+                    <td>Megane</td>
+                    <td>Kengne</td>
+                    <td>Mariee</td>
+                    <td align="center">9</td>
+                </tr>
+                <tr>
+                    <td>Mbosso</td>
+                    <td>DOVAL</td>
+                    <td>marie</td>
+                    <td align="center">50</td>
+                </tr>
+                <tr>
+                    <td colspan="3"align="center"><strong>TOTAL</strong></td> colspan: fusionner les colones et rowspan:fusionner les lignes
+                    <TD  align="center">17</TD> align center : centrer les elements d'un tableau
+                </tr>
+            </TBody>
+        </Table>-->
+        <TABLe border="0" bgcolor="pink">
+        <form action="ins.php" method="post">
+            <TR>
+                <TD><label for="nom"><strong> Entrez votre nom</strong></label></TD>
+                <TD><input type="text" id="nom" name="nom" size="32"> <br><br></TD>
+            </TR>
+            <TR>
+                <TD><label for="prenom"> <strong>Entrez votre prenom</strong></label></TD>
+                <TD><input type="text" id="prenom" name="prenom" size="32"> <br><br></TD>
+            </TR>
+            <tr>   
+                <td><label for="sexe"><strong>Selectionner votre sexe</strong></label></td>
+                <td><select name="sexe" id="sexe">
+                <option value="maculin"><strong>Masculin </strong></option>
+                <option value="feminin"><strong>Feminin</strong></option>
+                <option value="autre"><strong>Autre</strong></option></select></td>
+            </tr>
+            <tr>
+                <td><label for="email"><strong>Entrez votre mail</strong></label></td>
+                <td><input type="email" id="email" name="email"><br><br></td>
+            </tr>
+            <tr>
+                <td><label for="mot de passe"><strong>Entrez votre mot de passe</strong></label></td>
+                <td><input type="password" id="mot de passe" name="mot de passe"></td>
+            </tr>
+            <tr>
+                <TD><label for="confirmer mot de passe"><strong>Confirmer votre mot de passe</strong></label></TD>
+                <TD><input type="password" id="confirmer mot de passe" name="confirmer mot de passe"></TD>
+            </TR>        
+            <tr >
+                <td colspan="2"align="center"><input type="submit" value="Envoyer"  >
+                <input type="reset" value="Annuler"></td>
+            </tr>
+        </form>
+    </TABLe>
+    </CEnter>
+    </BODY>
+</Html> 
